@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: nacelle;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(3 7 18);
+}
+
+.navContainer {
+  background-color: rgb(15 23 38);
+  border-color: rgb(38 49 65);
+}
+
+/*  Fonts */
+@font-face {
+  font-family: nacelle;
+  src: url(../public/fonts/EN/nacelle-regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: nacelle;
+  src: url(../public/fonts/EN/nacelle-italic.woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: nacelle;
+  src: url(../public/fonts/EN/nacelle-semibold.woff2);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: nacelle;
+  src: url(../public/fonts/EN/nacelle-semibolditalic.woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
