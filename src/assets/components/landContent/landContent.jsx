@@ -51,7 +51,7 @@ export default function LandContent() {
         {/* video */}
         <video
           className="hero-video z-30"
-          src="/public/video/video.mp4"
+          src="/landing-page-demo/video/video.mp4"
           controls
           playsInline
           preload="metadata"
@@ -61,7 +61,7 @@ export default function LandContent() {
           {/* second img */}
           <img
             className="second-img -mt-80 mx-auto max-w-[95vw] sm:max-w-[60vw] absolute right-0 sm:right-1/5 "
-            src="/public/images/secondary-illustration.svg"
+            src="/images/secondary-illustration.svg"
             alt=""
           />
           <div className="second mt-2 sm:mt-9">
@@ -80,7 +80,7 @@ export default function LandContent() {
         <div className="cards text-container flex flex-col md:flex-row md:space-x-5 gap-4 md:gap-10 items-center mt-8 md:mt-16 w-auto space-x-8">
           <SpotlightCard className="w-full max-w-md mx-auto mb-2 md:mb-0">
             <img
-              src="/images/workflow-01.png"
+              src="/landing-page-demo/images/workflow-01.png"
               alt=""
               className="w-full rounded-xl"
             />
@@ -91,7 +91,7 @@ export default function LandContent() {
           </SpotlightCard>
           <SpotlightCard className="w-full max-w-md mx-auto mb-2 md:mb-0">
             <img
-              src="/images/workflow-02.png"
+              src="/landing-page-demo/images/workflow-02.png"
               alt=""
               className="w-full rounded-xl"
             />
@@ -102,7 +102,7 @@ export default function LandContent() {
           </SpotlightCard>
           <SpotlightCard className="w-full max-w-md mx-auto">
             <img
-              src="/images/workflow-03.png"
+              src="/landing-page-demo/images/workflow-03.png"
               alt=""
               className="w-full rounded-xl"
             />
@@ -123,7 +123,7 @@ export default function LandContent() {
             a single line of feedback, so you can go further than the speed of
             thought.
           </p>
-          <img src="/public/images/features.png" className=" mt-20" alt="" />
+          <img src="/images/features.png" className=" mt-20" alt="" />
         </div>
         <section className=" text-white py-16 px-6">
           <div className=" text-container font-[nacelle] text-left  max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
