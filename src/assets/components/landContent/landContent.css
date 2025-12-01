@@ -97,8 +97,6 @@
 
 /* video  */
 .hero-video {
-  width: 90%;
-  display: block;
   margin-top: 2rem;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(2, 6, 23, 0.6);
@@ -134,7 +132,7 @@
 
 
   .hero-video {
-    width: 100vw !important;
+    width: 80vw !important;
     margin-top: 1rem !important;
     border-radius: 8px;
     margin-bottom: 1rem;

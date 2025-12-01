@@ -50,7 +50,7 @@ export default function LandContent() {
         </div>
         {/* video */}
         <video
-          className="hero-video z-30"
+          className="hero-video w-[90%]"
           src="/landing-page-demo/video/video.mp4"
           controls
           playsInline

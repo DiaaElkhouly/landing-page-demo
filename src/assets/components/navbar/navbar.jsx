@@ -56,7 +56,7 @@ export default function NavBar() {
         </div>
         {/* menu list */}
         {menuOpen && (
-          <div className="mobileMenu block md:hidden absolute top-full right-0 mt-1 p-4 bg-slate-800 rounded shadow-lg z-30">
+          <div className="mobileMenu block md:hidden absolute top-full right-0 mt-1 p-4 rounded shadow-lg z-30">
             {navLinks.map((link) => (
               <button
                 key={link.label}
