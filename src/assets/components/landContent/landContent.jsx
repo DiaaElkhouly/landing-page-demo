@@ -32,7 +32,7 @@ export default function LandContent() {
             set it up once, and get beautiful results forever.
           </p>
         </div>
-          {/* get start btn */}
+        {/* get start btn */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-2 md:gap-7 pb-4">
           <button className="cta mb-2 sm:mb-0">
             <span>Get Started</span>
@@ -51,7 +51,7 @@ export default function LandContent() {
         {/* video */}
         <video
           className="hero-video z-30"
-          src="/video/video.mp4"
+          src="/public/video/video.mp4"
           controls
           playsInline
           preload="metadata"
@@ -129,9 +129,7 @@ export default function LandContent() {
           <div className=" text-container font-[nacelle] text-left  max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {features.map((feature, index) => (
               <div key={index} className="flex items-start space-x-4">
-                <div className="text-3xl text-indigo-400">
-                  {feature.icon}
-                </div>
+                <div className="text-3xl text-indigo-400">{feature.icon}</div>
                 <div>
                   <h5 className="text-xl font-semibold mb-2">
                     {feature.title}
