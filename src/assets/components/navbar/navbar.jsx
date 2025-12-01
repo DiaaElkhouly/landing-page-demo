@@ -60,7 +60,7 @@ export default function NavBar() {
             {navLinks.map((link) => (
               <button
                 key={link.label}
-                className="link-btn block w-full mb-2"
+                className="link-btn block w-full mb-2 "
                 onClick={() => setTimeout(() => setMenuOpen(false), 1000)}
               >
                 <span className="actual-text">&nbsp;{link.label}&nbsp;</span>

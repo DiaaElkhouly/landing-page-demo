@@ -7,7 +7,7 @@
     background-position: 0;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: shine 3s infinite linear;
+    animation: shine 3s infinite reverse linear;
     animation-fill-mode: forwards;
     -webkit-text-size-adjust: none;
     font-weight: 800;
@@ -15,6 +15,7 @@
     text-decoration: none;
     white-space: nowrap;
     font-family: "Poppins", sans-serif;
+    -webkit-animation: shine 5s infinite linear;
 }
 
 @-moz-keyframes shine {
@@ -119,6 +120,7 @@
     --text-stroke-color: rgba(255, 255, 255, 0.6);
     --animation-color: #999999;
     --fs-size: 1em;
+    background: transparent !important;
     letter-spacing: 3px;
     text-decoration: none;
     font-size: var(--fs-size);
@@ -169,7 +171,7 @@
 
 /* menu */
 .mobileMenu {
-    min-width: 160px;
+    min-width: 150px;
     background: #18233a;
     border-radius: 16px;
     box-shadow: 0 2px 16px 2px rgba(32, 32, 32, 0.12);
@@ -210,6 +212,20 @@
     .mobileMenu {
         display: block;
         right: 0;
+    }
+
+    @keyframes shine {
+        0% {
+            background-position: 0;
+        }
+
+        60% {
+            background-position: 8rem;
+        }
+
+        100% {
+            background-position: 8rem;
+        }
     }
 }
 
