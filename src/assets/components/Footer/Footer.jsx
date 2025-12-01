@@ -49,11 +49,6 @@ export default function Footer() {
         <span className="hover:underline cursor-pointer">Terms</span>
       </div>
       <div className=" relative">
-        <img
-          src="/public/images/footer-illustration.svg"
-          className=" absolute -top-70 -z-10"
-          alt=""
-        />
       </div>
     </footer>
   );
