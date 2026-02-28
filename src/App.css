@@ -1,52 +1,44 @@
+/**
+ * App Component Styles
+ * Professional Architecture
+ */
+
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-body {
-  font-family: nacelle;
-  margin: 0;
   padding: 0;
-  background-color: rgb(3 7 18);
+  text-align: left;
 }
 
-.navContainer {
-  background-color: rgb(15 23 38);
-  border-color: rgb(38 49 65);
+/* Main App Wrapper */
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-dark);
 }
 
-/*  Fonts */
-@font-face {
-  font-family: nacelle;
-  src: url(../public/fonts/EN/nacelle-regular.woff2);
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  width: 100%;
 }
 
-
-@font-face {
-  font-family: nacelle;
-  src: url(../public/fonts/EN/nacelle-italic.woff2);
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
+/* Section Full Width */
+.section-full-width {
+  width: 100%;
+  max-width: 100%;
 }
 
-@font-face {
-  font-family: nacelle;
-  src: url(../public/fonts/EN/nacelle-semibold.woff2);
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
+/* Container override for full-width sections */
+.container-fluid {
+  max-width: 100%;
+  padding: 0;
 }
 
-@font-face {
-  font-family: nacelle;
-  src: url(../public/fonts/EN/nacelle-semibolditalic.woff2);
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+/* Responsive breakpoints for app wrapper */
+@media (max-width: 768px) {
+  #root {
+    padding: 0;
+  }
 }

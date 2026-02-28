@@ -1,3 +1,7 @@
+/**
+ * SpotlightCard Component
+ */
+
 import { useRef, useState } from "react";
 
 const SpotlightCard = ({

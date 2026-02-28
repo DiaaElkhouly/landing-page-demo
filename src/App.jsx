@@ -1,28 +1,22 @@
+/**
+ * Main App Component - Professional Redesign
+ */
+
+import "./styles/global.css";
 import "./App.css";
-import NavBar from "./assets/components/navbar/navbar";
-import LandContent from "./assets/components/landContent/landContent";
-import TestimonialsSection from "./assets/components/TestimonialsSection/TestimonialsSection";
-import Footer from "./assets/components/Footer/Footer";
-
-import { createTheme, ThemeProvider } from "@mui/material";
-
-const Theme = createTheme({
-  typography: {
-    fontFamily: ["nacelle"],
-  },
-});
+import { Navbar, LandContent, TestimonialsSection, Footer } from "./components";
 
 function App() {
   return (
-    <>
-      <ThemeProvider theme={Theme}>
-        <NavBar />
+    <div className="app">
+      <Navbar />
+      <main>
         <LandContent />
         <TestimonialsSection />
-        <Footer />
-      </ThemeProvider>
-    </>
+      </main>
+      <Footer />
+    </div>
   );
 }
-// https://open.cruip.com/
+
 export default App;
